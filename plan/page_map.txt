@@ -1,0 +1,10 @@
+Page Map Based on Users
+Page/	Guests	Logged-in Users
+Home Page/	View books and reviews./	Dashboard view.
+Books Listing Page/	View books./	Same as guests.
+Single Book Page/	Read reviews./	Add ratings/reviews.
+Review Details Page/	View reviews/comments./	Like/comment on reviews.
+User Profile Page/	View limited profiles./	View and manage profiles.
+Login Page/	Access to log in./	Not applicable.
+Sign-Up Page/	Create an account./	Not applicable.
+Admin Page (Optional)	Not applicable./	Manage the site.
