@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <meta name="author" content="David Grzyb" />
+    <meta name="description" content="" />
+    <!-- Tailwind -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <!-- AlpineJS -->
+    <script
+      src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js"
+      defer
+    ></script>
+    <!-- Font Awesome -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"
+      integrity="sha256-KzZiKy0DWYsnwMF+X1DvQngQ2/FxF7MF3Ff72XcpuPs="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div class="min-h-screen bg-gray-200">
+      <!-- Top Bar -->
+      <header class="bg-white shadow-lg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="flex justify-between items-center h-16">
+            <!-- Main Menu -->
+            <nav class="flex space-x-6">
+              <a href="home.html" class="hover:text-yellow-300 font-medium"
+                >Home</a
+              >
+              <a href="books.html" class="hover:text-yellow-300 font-medium"
+                >Books</a
+              >
+              <a href="profile.html" class="hover:text-yellow-300 font-medium"
+                >Profile</a
+              >
+            </nav>
+            <!-- User Menu -->
+            <div class="flex items-center space-x-6">
+              <span class="font-medium">Hello, User</span>
+              <a
+                href="#"
+                class="bg-yellow-400 text-purple-800 px-4 py-2 rounded hover:bg-yellow-300 font-medium"
+              >
+                Logout
+              </a>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- Main Container -->
+      <div class="max-w-7xl mx-auto px-4 pb-8 sm:px-6 lg:px-8 mt-8">
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+          <!-- Recently Added Reviews -->
+          <div class="lg:col-span-2 space-y-6">
+            <h2 class="text-2xl font-bold">Recently Added Reviews</h2>
+
+            <div
+              class="bg-white shadow-md p-6 rounded-lg border-l-4 border-purple-400"
+            >
+              <h3 class="text-xl font-semibold text-blue-800">
+                The Great Gatsby
+              </h3>
+              <p class="text-sm text-gray-500">Reviewed by Jane Doe</p>
+              <p class="text-gray-700 mt-3">
+                "A masterpiece that explores themes of wealth, love, and the
+                American Dream..."
+              </p>
+              <button
+                class="mt-4 bg-purple-500 text-white px-4 py-2 rounded hover:bg-purple-600"
+              >
+                Read More
+              </button>
+            </div>
+
+            <div
+              class="bg-white shadow-md p-6 rounded-lg border-l-4 border-purple-400"
+            >
+              <h3 class="text-xl font-semibold text-blue-800">
+                The Great Gatsby
+              </h3>
+              <p class="text-sm text-gray-500">Reviewed by Jane Doe</p>
+              <p class="text-gray-700 mt-3">
+                "A masterpiece that explores themes of wealth, love, and the
+                American Dream..."
+              </p>
+              <button
+                class="mt-4 bg-purple-500 text-white px-4 py-2 rounded hover:bg-purple-600"
+              >
+                Read More
+              </button>
+            </div>
+
+            <div
+              class="bg-white shadow-md p-6 rounded-lg border-l-4 border-purple-400"
+            >
+              <h3 class="text-xl font-semibold text-blue-800">
+                The Great Gatsby
+              </h3>
+              <p class="text-sm text-gray-500">Reviewed by Jane Doe</p>
+              <p class="text-gray-700 mt-3">
+                "A masterpiece that explores themes of wealth, love, and the
+                American Dream..."
+              </p>
+              <button
+                class="mt-4 bg-purple-500 text-white px-4 py-2 rounded hover:bg-purple-600"
+              >
+                Read More
+              </button>
+            </div>
+
+            <div
+              class="bg-white shadow-md p-6 rounded-lg border-l-4 border-purple-400"
+            >
+              <h3 class="text-xl font-semibold text-blue-800">
+                The Great Gatsby
+              </h3>
+              <p class="text-sm text-gray-500">Reviewed by Jane Doe</p>
+              <p class="text-gray-700 mt-3">
+                "A masterpiece that explores themes of wealth, love, and the
+                American Dream..."
+              </p>
+              <button
+                class="mt-4 bg-purple-500 text-white px-4 py-2 rounded hover:bg-purple-600"
+              >
+                Read More
+              </button>
+            </div>
+          </div>
+
+          <!-- Recently Added Books -->
+          <aside class="space-y-6">
+            <h2 class="text-2xl font-bold">Recently Added Books</h2>
+
+            <div
+              class="bg-white shadow-md p-4 rounded-lg flex border-l-4 border-blue-400"
+            >
+              <img
+                src="book-cover.jpg"
+                alt="Book Cover"
+                class="w-16 h-20 object-cover rounded-lg shadow-lg mr-4"
+              />
+              <div>
+                <h3 class="text-lg font-semibold text-blue-800">1984</h3>
+                <p class="text-sm text-gray-500">by George Orwell</p>
+                <p class="text-gray-600 mt-2 text-sm">
+                  A dystopian novel that delves into the perils of
+                  totalitarianism...
+                </p>
+                <button
+                  class="mt-4 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600"
+                >
+                  Review Book
+                </button>
+              </div>
+            </div>
+
+            <div
+              class="bg-white shadow-md p-4 rounded-lg flex border-l-4 border-blue-400"
+            >
+              <img
+                src="book-cover.jpg"
+                alt="Book Cover"
+                class="w-16 h-20 object-cover rounded-lg shadow-lg mr-4"
+              />
+              <div>
+                <h3 class="text-lg font-semibold text-blue-800">1984</h3>
+                <p class="text-sm text-gray-500">by George Orwell</p>
+                <p class="text-gray-600 mt-2 text-sm">
+                  A dystopian novel that delves into the perils of
+                  totalitarianism...
+                </p>
+                <button
+                  class="mt-4 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600"
+                >
+                  Review Book
+                </button>
+              </div>
+            </div>
+
+            <div
+              class="bg-white shadow-md p-4 rounded-lg flex border-l-4 border-blue-400"
+            >
+              <img
+                src="book-cover.jpg"
+                alt="Book Cover"
+                class="w-16 h-20 object-cover rounded-lg shadow-lg mr-4"
+              />
+              <div>
+                <h3 class="text-lg font-semibold text-blue-800">1984</h3>
+                <p class="text-sm text-gray-500">by George Orwell</p>
+                <p class="text-gray-600 mt-2 text-sm">
+                  A dystopian novel that delves into the perils of
+                  totalitarianism...
+                </p>
+                <button
+                  class="mt-4 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600"
+                >
+                  Review Book
+                </button>
+              </div>
+            </div>
+
+            <div
+              class="bg-white shadow-md p-4 rounded-lg flex border-l-4 border-blue-400"
+            >
+              <img
+                src="book-cover.jpg"
+                alt="Book Cover"
+                class="w-16 h-20 object-cover rounded-lg shadow-lg mr-4"
+              />
+              <div>
+                <h3 class="text-lg font-semibold text-blue-800">1984</h3>
+                <p class="text-sm text-gray-500">by George Orwell</p>
+                <p class="text-gray-600 mt-2 text-sm">
+                  A dystopian novel that delves into the perils of
+                  totalitarianism...
+                </p>
+                <button
+                  class="mt-4 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600"
+                >
+                  Review Book
+                </button>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

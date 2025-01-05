@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Account</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-100">
+    <!-- Main Container -->
+    <div class="flex min-h-screen">
+      <!-- Sidebar -->
+      <aside class="w-1/4 bg-white shadow-md">
+        <div class="p-6">
+          <div class="flex items-center gap-4">
+            <div
+              class="w-12 h-12 bg-pink-500 text-white rounded-full flex items-center justify-center text-xl font-bold"
+            >
+              t
+            </div>
+            <div>
+              <p class="text-lg font-semibold">Hello,</p>
+              <p class="text-gray-600">tomato hashira</p>
+            </div>
+          </div>
+          <nav class="mt-6">
+            <ul class="space-y-2">
+              <li>
+                <a href="#" class="block text-gray-600">Personal Information</a>
+              </li>
+              <li><a href="#" class="block text-gray-600">My Reviews</a></li>
+              <li><a href="#" class="block text-gray-600">Edit Profile</a></li>
+            </ul>
+          </nav>
+        </div>
+      </aside>
+
+      <!-- Content Area -->
+      <main class="flex-1 bg-white p-6 shadow-md">
+        <!-- Personal Information -->
+        <div>
+          <h2 class="text-xl font-semibold mb-4">Personal Information</h2>
+
+          <div class="space-y-6">
+            <!-- Name -->
+            <div>
+              <label class="block text-gray-700 font-medium mb-2">Name</label>
+              <input
+                type="text"
+                value="tomato hashira"
+                class="w-full border border-gray-300 rounded-md p-2"
+                disabled
+              />
+            </div>
+
+            <!-- Date of Birth -->
+            <div>
+              <label class="block text-gray-700 font-medium mb-2"
+                >Your Date of Birth</label
+              >
+              <input
+                type="text"
+                placeholder="mm/dd/yyyy"
+                class="w-full border border-gray-300 rounded-md p-2"
+                disabled
+              />
+            </div>
+
+            <!-- Email Address -->
+            <div>
+              <label class="block text-gray-700 font-medium mb-2"
+                >Email Address</label
+              >
+              <input
+                type="email"
+                value="tomatohashira@gmail.com"
+                class="w-full border border-gray-300 rounded-md p-2"
+                disabled
+              />
+            </div>
+
+            <!-- Profile Picture -->
+            <div>
+              <label class="block text-gray-700 font-medium mb-2"
+                >Profile Picture</label
+              >
+              <div class="flex items-center gap-4 mt-2">
+                <div
+                  class="w-16 h-16 bg-pink-500 text-white rounded-full flex items-center justify-center text-xl font-bold"
+                >
+                  t
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
